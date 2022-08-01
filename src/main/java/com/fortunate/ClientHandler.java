@@ -7,7 +7,7 @@ import java.util.ArrayList;
 public class ClientHandler implements Runnable{
 
     public static ArrayList<ClientHandler> clientHandlers = new ArrayList<>();  //To hold the list of clients
-    private Socket socket;
+    Socket socket;
     private BufferedReader bufferedReader;       // To read data(messages)
     private BufferedWriter bufferedWriter;      // To send data(messages)
     private String clientUsername;

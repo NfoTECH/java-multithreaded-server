@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d7606523-eb2c-40f7-aa9b-3de27dac88e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fortunate/ClientHandlerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/fortunate/ClientTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fortunate/ClientHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fortunate/ClientHandler.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -38,9 +42,126 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.fortunate" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ClientHandlerTest">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fortunate.Client" />
+      <module name="java-multithreaded-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fortunate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientHandlerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-multithreaded-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fortunate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fortunate" />
+      <option name="MAIN_CLASS_NAME" value="com.fortunate.ClientHandlerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientHandlerTest.broadcastMessageShouldSendTheMessageToAllClientsExceptTheSender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-multithreaded-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fortunate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fortunate" />
+      <option name="MAIN_CLASS_NAME" value="com.fortunate.ClientHandlerTest" />
+      <option name="METHOD_NAME" value="broadcastMessageShouldSendTheMessageToAllClientsExceptTheSender" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientHandlerTest.runShouldBroadcastMessageToAllClientsExceptTheSender" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-multithreaded-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fortunate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fortunate" />
+      <option name="MAIN_CLASS_NAME" value="com.fortunate.ClientHandlerTest" />
+      <option name="METHOD_NAME" value="runShouldBroadcastMessageToAllClientsExceptTheSender" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="java-multithreaded-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fortunate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.fortunate" />
+      <option name="MAIN_CLASS_NAME" value="com.fortunate.ClientTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Client" />
+      <item itemvalue="JUnit.ClientHandlerTest" />
+      <item itemvalue="JUnit.ClientHandlerTest.broadcastMessageShouldSendTheMessageToAllClientsExceptTheSender" />
+      <item itemvalue="JUnit.ClientHandlerTest.runShouldBroadcastMessageToAllClientsExceptTheSender" />
+      <item itemvalue="JUnit.ClientTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClientHandlerTest" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="JUnit.ClientTest" />
+        <item itemvalue="JUnit.ClientHandlerTest.runShouldBroadcastMessageToAllClientsExceptTheSender" />
+        <item itemvalue="JUnit.ClientHandlerTest.broadcastMessageShouldSendTheMessageToAllClientsExceptTheSender" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
