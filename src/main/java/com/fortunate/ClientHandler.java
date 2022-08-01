@@ -8,7 +8,7 @@ public class ClientHandler implements Runnable{
 
     public static ArrayList<ClientHandler> clientHandlers = new ArrayList<>();  //To hold the list of clients
     private Socket socket;
-    private BufferedReader bufferedReader;      // To read data(messages)
+    private BufferedReader bufferedReader;       // To read data(messages)
     private BufferedWriter bufferedWriter;      // To send data(messages)
     private String clientUsername;
 
@@ -35,7 +35,7 @@ public class ClientHandler implements Runnable{
                 messageFromClient = bufferedReader.readLine();
                 broadcastMessage(messageFromClient);
             } catch (IOException e) {
-                closeEveryThing(socket, bufferedReader, bufferedWriter);
+                closeEverything(socket, bufferedReader, bufferedWriter);
                 break;
             }
         }
@@ -50,7 +50,6 @@ public class ClientHandler implements Runnable{
                 }
             } catch (IOException e) {
                 closeEverything(socket, bufferedReader, bufferedWriter);
-                break;
             }
         }
     }
