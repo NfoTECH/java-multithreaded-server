@@ -42,6 +42,7 @@ class ClientHandlerTest {
         ClientHandler clientHandler = new ClientHandler(new Socket());
         clientHandler.broadcastMessage("test");
         assertEquals(0, ClientHandler.clientHandlers.size());
+        //
     }
 
     @Test
@@ -59,6 +60,7 @@ class ClientHandlerTest {
         ClientHandler clientHandler = new ClientHandler(new Socket());
         clientHandler.run();
         assertEquals(ClientHandler.clientHandlers.size(), 0);
+        //
     }
 
     @Test
