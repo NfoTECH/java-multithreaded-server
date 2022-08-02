@@ -40,17 +40,14 @@ public class Client {
     }
 
     public void listenForMessage() {
-        new Thread(new Runnable() {
-            @Override
-            public void run() {
-                String msgFromGroupChat;
-                while (socket.isConnected()) {
-                    try {
-                        msgFromGroupChat = bufferedReader.readLine();
-                        System.out.println(msgFromGroupChat);
-                    } catch (IOException e) {
-                        closeEverything(socket, bufferedReader, bufferedWriter);
-                    }
+        new Thread(() -> {
+            String msgFromGroupChat;
+            while (socket.isConnected()) {
+                try {
+                    msgFromGroupChat = bufferedReader.readLine();
+                    System.out.println(msgFromGroupChat);
+                } catch (IOException e) {
+                    closeEverything(socket, bufferedReader, bufferedWriter);
                 }
             }
         }).start();
@@ -72,6 +69,7 @@ public class Client {
         String username = scanner.nextLine();
         Socket socket = new Socket("localhost", 1234);
         Client client = new Client(socket, username);
+        System.out.println("Welcome " + username + ". Type your message below.");
         client.listenForMessage();
         client.sendMessage();
     }
